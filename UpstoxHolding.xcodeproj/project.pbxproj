@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80DBC0E2CE36D8E009CB06D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC072CE36D8E009CB06D /* Endpoint.swift */; };
+		E80DBC0F2CE36D8E009CB06D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC082CE36D8E009CB06D /* NetworkManager.swift */; };
+		E80DBC122CE36F61009CB06D /* HoldingsEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC112CE36F61009CB06D /* HoldingsEndpoint.swift */; };
+		E80DBC162CE370CA009CB06D /* HoldingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC152CE370CA009CB06D /* HoldingsRepository.swift */; };
+		E80DBC182CE370EE009CB06D /* HoldingsRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC172CE370EE009CB06D /* HoldingsRepositoryImpl.swift */; };
+		E80DBC1A2CE371A2009CB06D /* HoldingsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC192CE371A2009CB06D /* HoldingsDTO.swift */; };
+		E80DBC1C2CE371CE009CB06D /* Holdings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC1B2CE371CE009CB06D /* Holdings.swift */; };
+		E80DBC1E2CE37555009CB06D /* UserHolding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC1D2CE37555009CB06D /* UserHolding.swift */; };
+		E80DBC202CE375D7009CB06D /* GetHoldingUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC1F2CE375D7009CB06D /* GetHoldingUseCase.swift */; };
+		E80DBC222CE37672009CB06D /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC212CE37672009CB06D /* HoldingsViewModel.swift */; };
+		E80DBC242CE37E15009CB06D /* HoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DBC232CE37E15009CB06D /* HoldingCell.swift */; };
+		E851A8C82CE48DD9005D2ABB /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E851A8C72CE48DD9005D2ABB /* NSMutableAttributedString+Extension.swift */; };
+		E85ACAAE2CE3EE9400BC6E1A /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAAD2CE3EE9400BC6E1A /* Double+Extension.swift */; };
+		E85ACAB02CE3EEB600BC6E1A /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAAF2CE3EEB600BC6E1A /* Array+Extension.swift */; };
+		E85ACAB22CE3EED900BC6E1A /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAB12CE3EED900BC6E1A /* UIStackView+Extension.swift */; };
+		E85ACAB42CE3F7CB00BC6E1A /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAB32CE3F7CB00BC6E1A /* UIFont+Extension.swift */; };
+		E85ACAB62CE3F7F200BC6E1A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAB52CE3F7F200BC6E1A /* UIColor+Extension.swift */; };
+		E85ACAB82CE3F88100BC6E1A /* BottomViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAB72CE3F88100BC6E1A /* BottomViewState.swift */; };
+		E85ACABA2CE3F8A000BC6E1A /* InvestmentViewAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAB92CE3F8A000BC6E1A /* InvestmentViewAttributes.swift */; };
+		E85ACABC2CE3F8C900BC6E1A /* HoldingCellAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACABB2CE3F8C900BC6E1A /* HoldingCellAttribute.swift */; };
+		E85ACAC22CE40DDA00BC6E1A /* HoldingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAC12CE40DDA00BC6E1A /* HoldingRouter.swift */; };
+		E85ACAC52CE411DF00BC6E1A /* HoldingResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAC42CE411DF00BC6E1A /* HoldingResolver.swift */; };
+		E85ACAC82CE479DF00BC6E1A /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAC72CE479CE00BC6E1A /* MockNetworkManager.swift */; };
+		E85ACACE2CE4829D00BC6E1A /* holdings_success_response.json in Resources */ = {isa = PBXBuildFile; fileRef = E85ACACD2CE4829D00BC6E1A /* holdings_success_response.json */; };
+		E85ACAD02CE4859300BC6E1A /* holdings_empty_response.json in Resources */ = {isa = PBXBuildFile; fileRef = E85ACACF2CE4859300BC6E1A /* holdings_empty_response.json */; };
+		E85ACAD22CE485F600BC6E1A /* holdings_failure_response.json in Resources */ = {isa = PBXBuildFile; fileRef = E85ACAD12CE485F600BC6E1A /* holdings_failure_response.json */; };
+		E85ACAD52CE486CC00BC6E1A /* GetHoldingUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAD42CE486CC00BC6E1A /* GetHoldingUseCaseTests.swift */; };
+		E85ACAD82CE488F100BC6E1A /* HoldingsViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85ACAD72CE488F100BC6E1A /* HoldingsViewModelTest.swift */; };
+		E8B5C6C02CE3C5D900A19B73 /* InvestmentBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B5C6BF2CE3C5D900A19B73 /* InvestmentBottomView.swift */; };
 		E8FFD6EF2CE3694400DFF782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFD6E52CE3694400DFF782 /* AppDelegate.swift */; };
-		E8FFD6F02CE3694400DFF782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFD6EC2CE3694400DFF782 /* SceneDelegate.swift */; };
-		E8FFD6F12CE3694400DFF782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFD6ED2CE3694400DFF782 /* ViewController.swift */; };
+		E8FFD6F12CE3694400DFF782 /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFD6ED2CE3694400DFF782 /* HoldingsViewController.swift */; };
 		E8FFD6F22CE3694400DFF782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8FFD6E62CE3694400DFF782 /* Assets.xcassets */; };
 		E8FFD6F42CE3694400DFF782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FFD6E92CE3694400DFF782 /* LaunchScreen.storyboard */; };
-		E8FFD6F52CE3694400DFF782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8FFD6EB2CE3694400DFF782 /* Main.storyboard */; };
-		E8FFD6F82CE3694600DFF782 /* UpstoxHoldingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFD6F62CE3694600DFF782 /* UpstoxHoldingTests.swift */; };
+		E8FFD6F82CE3694600DFF782 /* HoldingRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FFD6F62CE3694600DFF782 /* HoldingRepositoryTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +54,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E80DBC072CE36D8E009CB06D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E80DBC082CE36D8E009CB06D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E80DBC112CE36F61009CB06D /* HoldingsEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsEndpoint.swift; sourceTree = "<group>"; };
+		E80DBC152CE370CA009CB06D /* HoldingsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsRepository.swift; sourceTree = "<group>"; };
+		E80DBC172CE370EE009CB06D /* HoldingsRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsRepositoryImpl.swift; sourceTree = "<group>"; };
+		E80DBC192CE371A2009CB06D /* HoldingsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsDTO.swift; sourceTree = "<group>"; };
+		E80DBC1B2CE371CE009CB06D /* Holdings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holdings.swift; sourceTree = "<group>"; };
+		E80DBC1D2CE37555009CB06D /* UserHolding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHolding.swift; sourceTree = "<group>"; };
+		E80DBC1F2CE375D7009CB06D /* GetHoldingUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHoldingUseCase.swift; sourceTree = "<group>"; };
+		E80DBC212CE37672009CB06D /* HoldingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModel.swift; sourceTree = "<group>"; };
+		E80DBC232CE37E15009CB06D /* HoldingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingCell.swift; sourceTree = "<group>"; };
+		E851A8C72CE48DD9005D2ABB /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		E85ACAAD2CE3EE9400BC6E1A /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		E85ACAAF2CE3EEB600BC6E1A /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		E85ACAB12CE3EED900BC6E1A /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		E85ACAB32CE3F7CB00BC6E1A /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		E85ACAB52CE3F7F200BC6E1A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E85ACAB72CE3F88100BC6E1A /* BottomViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomViewState.swift; sourceTree = "<group>"; };
+		E85ACAB92CE3F8A000BC6E1A /* InvestmentViewAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentViewAttributes.swift; sourceTree = "<group>"; };
+		E85ACABB2CE3F8C900BC6E1A /* HoldingCellAttribute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingCellAttribute.swift; sourceTree = "<group>"; };
+		E85ACAC12CE40DDA00BC6E1A /* HoldingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingRouter.swift; sourceTree = "<group>"; };
+		E85ACAC42CE411DF00BC6E1A /* HoldingResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingResolver.swift; sourceTree = "<group>"; };
+		E85ACAC72CE479CE00BC6E1A /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		E85ACACD2CE4829D00BC6E1A /* holdings_success_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = holdings_success_response.json; sourceTree = "<group>"; };
+		E85ACACF2CE4859300BC6E1A /* holdings_empty_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = holdings_empty_response.json; sourceTree = "<group>"; };
+		E85ACAD12CE485F600BC6E1A /* holdings_failure_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = holdings_failure_response.json; sourceTree = "<group>"; };
+		E85ACAD42CE486CC00BC6E1A /* GetHoldingUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHoldingUseCaseTests.swift; sourceTree = "<group>"; };
+		E85ACAD72CE488F100BC6E1A /* HoldingsViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModelTest.swift; sourceTree = "<group>"; };
+		E8B5C6BF2CE3C5D900A19B73 /* InvestmentBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentBottomView.swift; sourceTree = "<group>"; };
 		E8FFD6B12CE3691C00DFF782 /* UpstoxHolding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpstoxHolding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FFD6C72CE3691E00DFF782 /* UpstoxHoldingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpstoxHoldingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FFD6E52CE3694400DFF782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8FFD6E62CE3694400DFF782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8FFD6E72CE3694400DFF782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8FFD6E82CE3694400DFF782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E8FFD6EA2CE3694400DFF782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E8FFD6EC2CE3694400DFF782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8FFD6ED2CE3694400DFF782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E8FFD6F62CE3694600DFF782 /* UpstoxHoldingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpstoxHoldingTests.swift; sourceTree = "<group>"; };
+		E8FFD6ED2CE3694400DFF782 /* HoldingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewController.swift; sourceTree = "<group>"; };
+		E8FFD6F62CE3694600DFF782 /* HoldingRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingRepositoryTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +111,217 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E80DBBFF2CE36D8E009CB06D /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC192CE371A2009CB06D /* HoldingsDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		E80DBC002CE36D8E009CB06D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC172CE370EE009CB06D /* HoldingsRepositoryImpl.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E80DBC012CE36D8E009CB06D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBBFF2CE36D8E009CB06D /* DTO */,
+				E80DBC002CE36D8E009CB06D /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E80DBC022CE36D8E009CB06D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC1D2CE37555009CB06D /* UserHolding.swift */,
+				E80DBC1B2CE371CE009CB06D /* Holdings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E80DBC032CE36D8E009CB06D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC152CE370CA009CB06D /* HoldingsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E80DBC042CE36D8E009CB06D /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC1F2CE375D7009CB06D /* GetHoldingUseCase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		E80DBC052CE36D8E009CB06D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC022CE36D8E009CB06D /* Model */,
+				E80DBC032CE36D8E009CB06D /* Repository */,
+				E80DBC042CE36D8E009CB06D /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E80DBC062CE36D8E009CB06D /* AppEndpoints */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC112CE36F61009CB06D /* HoldingsEndpoint.swift */,
+			);
+			path = AppEndpoints;
+			sourceTree = "<group>";
+		};
+		E80DBC092CE36D8E009CB06D /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC062CE36D8E009CB06D /* AppEndpoints */,
+				E80DBC072CE36D8E009CB06D /* Endpoint.swift */,
+				E80DBC082CE36D8E009CB06D /* NetworkManager.swift */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		E80DBC0A2CE36D8E009CB06D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACABB2CE3F8C900BC6E1A /* HoldingCellAttribute.swift */,
+				E85ACAB92CE3F8A000BC6E1A /* InvestmentViewAttributes.swift */,
+				E80DBC232CE37E15009CB06D /* HoldingCell.swift */,
+				E8B5C6BF2CE3C5D900A19B73 /* InvestmentBottomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E80DBC0B2CE36D8E009CB06D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC212CE37672009CB06D /* HoldingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E80DBC0C2CE36D8E009CB06D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E80DBC102CE36DA4009CB06D /* ViewController */,
+				E80DBC0A2CE36D8E009CB06D /* View */,
+				E80DBC0B2CE36D8E009CB06D /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E80DBC0D2CE36D8E009CB06D /* source */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACAC02CE40DCE00BC6E1A /* Router */,
+				E85ACAAC2CE3EE5C00BC6E1A /* Extension */,
+				E80DBC012CE36D8E009CB06D /* Data */,
+				E80DBC052CE36D8E009CB06D /* Domain */,
+				E80DBC092CE36D8E009CB06D /* NetworkClient */,
+				E80DBC0C2CE36D8E009CB06D /* Presentation */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		E80DBC102CE36DA4009CB06D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACAB72CE3F88100BC6E1A /* BottomViewState.swift */,
+				E8FFD6ED2CE3694400DFF782 /* HoldingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E85ACAAC2CE3EE5C00BC6E1A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E851A8C72CE48DD9005D2ABB /* NSMutableAttributedString+Extension.swift */,
+				E85ACAB52CE3F7F200BC6E1A /* UIColor+Extension.swift */,
+				E85ACAB32CE3F7CB00BC6E1A /* UIFont+Extension.swift */,
+				E85ACAB12CE3EED900BC6E1A /* UIStackView+Extension.swift */,
+				E85ACAAF2CE3EEB600BC6E1A /* Array+Extension.swift */,
+				E85ACAAD2CE3EE9400BC6E1A /* Double+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E85ACABF2CE401C400BC6E1A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E8FFD6E62CE3694400DFF782 /* Assets.xcassets */,
+				E8FFD6E92CE3694400DFF782 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E85ACAC02CE40DCE00BC6E1A /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACAC32CE411D700BC6E1A /* Resolver */,
+				E85ACAC12CE40DDA00BC6E1A /* HoldingRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E85ACAC32CE411D700BC6E1A /* Resolver */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACAC42CE411DF00BC6E1A /* HoldingResolver.swift */,
+			);
+			path = Resolver;
+			sourceTree = "<group>";
+		};
+		E85ACAC62CE479C400BC6E1A /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACAC92CE4808F00BC6E1A /* Files */,
+				E85ACAC72CE479CE00BC6E1A /* MockNetworkManager.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		E85ACAC92CE4808F00BC6E1A /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACACD2CE4829D00BC6E1A /* holdings_success_response.json */,
+				E85ACACF2CE4859300BC6E1A /* holdings_empty_response.json */,
+				E85ACAD12CE485F600BC6E1A /* holdings_failure_response.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		E85ACACA2CE480A200BC6E1A /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E8FFD6F62CE3694600DFF782 /* HoldingRepositoryTest.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		E85ACAD32CE486B700BC6E1A /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACAD42CE486CC00BC6E1A /* GetHoldingUseCaseTests.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		E85ACAD62CE4883800BC6E1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E85ACAD72CE488F100BC6E1A /* HoldingsViewModelTest.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		E8FFD6A82CE3691C00DFF782 = {
 			isa = PBXGroup;
 			children = (
@@ -78,13 +343,10 @@
 		E8FFD6EE2CE3694400DFF782 /* UpstoxHolding */ = {
 			isa = PBXGroup;
 			children = (
-				E8FFD6E52CE3694400DFF782 /* AppDelegate.swift */,
-				E8FFD6E62CE3694400DFF782 /* Assets.xcassets */,
 				E8FFD6E72CE3694400DFF782 /* Info.plist */,
-				E8FFD6E92CE3694400DFF782 /* LaunchScreen.storyboard */,
-				E8FFD6EB2CE3694400DFF782 /* Main.storyboard */,
-				E8FFD6EC2CE3694400DFF782 /* SceneDelegate.swift */,
-				E8FFD6ED2CE3694400DFF782 /* ViewController.swift */,
+				E85ACABF2CE401C400BC6E1A /* Assets */,
+				E80DBC0D2CE36D8E009CB06D /* source */,
+				E8FFD6E52CE3694400DFF782 /* AppDelegate.swift */,
 			);
 			path = UpstoxHolding;
 			sourceTree = "<group>";
@@ -92,7 +354,10 @@
 		E8FFD6F72CE3694600DFF782 /* UpstoxHoldingTests */ = {
 			isa = PBXGroup;
 			children = (
-				E8FFD6F62CE3694600DFF782 /* UpstoxHoldingTests.swift */,
+				E85ACAD62CE4883800BC6E1A /* ViewModel */,
+				E85ACAD32CE486B700BC6E1A /* UseCase */,
+				E85ACACA2CE480A200BC6E1A /* Repository */,
+				E85ACAC62CE479C400BC6E1A /* Mocks */,
 			);
 			path = UpstoxHoldingTests;
 			sourceTree = "<group>";
@@ -185,7 +450,6 @@
 			files = (
 				E8FFD6F22CE3694400DFF782 /* Assets.xcassets in Resources */,
 				E8FFD6F42CE3694400DFF782 /* LaunchScreen.storyboard in Resources */,
-				E8FFD6F52CE3694400DFF782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +457,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85ACAD02CE4859300BC6E1A /* holdings_empty_response.json in Resources */,
+				E85ACAD22CE485F600BC6E1A /* holdings_failure_response.json in Resources */,
+				E85ACACE2CE4829D00BC6E1A /* holdings_success_response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +470,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E851A8C82CE48DD9005D2ABB /* NSMutableAttributedString+Extension.swift in Sources */,
+				E80DBC122CE36F61009CB06D /* HoldingsEndpoint.swift in Sources */,
+				E80DBC182CE370EE009CB06D /* HoldingsRepositoryImpl.swift in Sources */,
+				E85ACAB42CE3F7CB00BC6E1A /* UIFont+Extension.swift in Sources */,
+				E80DBC222CE37672009CB06D /* HoldingsViewModel.swift in Sources */,
+				E80DBC1A2CE371A2009CB06D /* HoldingsDTO.swift in Sources */,
+				E80DBC1C2CE371CE009CB06D /* Holdings.swift in Sources */,
+				E85ACAB82CE3F88100BC6E1A /* BottomViewState.swift in Sources */,
+				E85ACAB62CE3F7F200BC6E1A /* UIColor+Extension.swift in Sources */,
+				E85ACAAE2CE3EE9400BC6E1A /* Double+Extension.swift in Sources */,
 				E8FFD6EF2CE3694400DFF782 /* AppDelegate.swift in Sources */,
-				E8FFD6F02CE3694400DFF782 /* SceneDelegate.swift in Sources */,
-				E8FFD6F12CE3694400DFF782 /* ViewController.swift in Sources */,
+				E85ACABA2CE3F8A000BC6E1A /* InvestmentViewAttributes.swift in Sources */,
+				E85ACAB22CE3EED900BC6E1A /* UIStackView+Extension.swift in Sources */,
+				E80DBC202CE375D7009CB06D /* GetHoldingUseCase.swift in Sources */,
+				E80DBC0E2CE36D8E009CB06D /* Endpoint.swift in Sources */,
+				E85ACABC2CE3F8C900BC6E1A /* HoldingCellAttribute.swift in Sources */,
+				E80DBC0F2CE36D8E009CB06D /* NetworkManager.swift in Sources */,
+				E85ACAB02CE3EEB600BC6E1A /* Array+Extension.swift in Sources */,
+				E8B5C6C02CE3C5D900A19B73 /* InvestmentBottomView.swift in Sources */,
+				E8FFD6F12CE3694400DFF782 /* HoldingsViewController.swift in Sources */,
+				E85ACAC22CE40DDA00BC6E1A /* HoldingRouter.swift in Sources */,
+				E80DBC1E2CE37555009CB06D /* UserHolding.swift in Sources */,
+				E85ACAC52CE411DF00BC6E1A /* HoldingResolver.swift in Sources */,
+				E80DBC162CE370CA009CB06D /* HoldingsRepository.swift in Sources */,
+				E80DBC242CE37E15009CB06D /* HoldingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +502,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8FFD6F82CE3694600DFF782 /* UpstoxHoldingTests.swift in Sources */,
+				E85ACAC82CE479DF00BC6E1A /* MockNetworkManager.swift in Sources */,
+				E8FFD6F82CE3694600DFF782 /* HoldingRepositoryTest.swift in Sources */,
+				E85ACAD82CE488F100BC6E1A /* HoldingsViewModelTest.swift in Sources */,
+				E85ACAD52CE486CC00BC6E1A /* GetHoldingUseCaseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +528,6 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		E8FFD6EB2CE3694400DFF782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E8FFD6EA2CE3694400DFF782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -258,7 +542,6 @@
 				INFOPLIST_FILE = UpstoxHolding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -285,7 +568,6 @@
 				INFOPLIST_FILE = UpstoxHolding/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
