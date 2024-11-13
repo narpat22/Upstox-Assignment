@@ -43,3 +43,4 @@ User Holding App for upstox assignment
 ## Author
 
 - [@Pritesh Singhvi](https://github.com/narpat22) 🙋‍♂️
+- [LinkedIn](https://www.linkedin.com/in/priteshsinghvi/)
