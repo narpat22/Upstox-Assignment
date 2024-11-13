@@ -20,6 +20,8 @@ User Holding App for upstox assignment
 ## Screenshots & Demo
 
 - [App Demo!](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/demo.mp4)
+![ss1](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/appSS1.png)
+![ss2](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/appSS2.png)
 
 ## Build
 - Build succeeded with no errors and warning
