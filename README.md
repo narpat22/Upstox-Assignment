@@ -19,26 +19,26 @@ User Holding App for upstox assignment
 
 ## Screenshots & Demo
 
-- [App Demo!](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/demo.mp4)
-![ss1](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/appSS1.png)
-![ss2](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/appSS2.png)
+- [App Demo!](./Media/demo.mp4)
+
+<img src="./Media/appSS1.png" width="200">  <img src="./Media/appSS2.png" width="200">
 
 ## Build
 - Build succeeded with no errors and warning
-![build](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/build.png)
+<img src="./Media/build.png" width="200">
 
 - No Layout constraints issue
-![layout](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/no-layout-warnings.png)
+<img src="./Media/no-layout-warnings.png" width="400">
 
 ## Unit Testing
 **I have written unit test cases for all the business logic, achieving 100% code coverage.**
 
 - Test case build succeeded with no errors and warning
-![build](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/test%20build.png)
+<img src="./Media/test build.png" width="400">
 - All test case passed
-![test case](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/test%20report.png)
+<img src="./Media/test report.png" width="400">
 - Full app code coverage - 89%, where business logic code coverage - 100%
-![code coverage](https://github.com/narpat22/Upstox-Assignment/blob/main/Media/test%20case%20report.png)
+<img src="./Media/test case report.png" width="400">
 
 ## Author
 
