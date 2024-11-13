@@ -34,6 +34,10 @@ final class HoldingCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
     }
 
+    override func prepareForReuse() {
+        data = nil
+    }
+
     func updateData(_ holding: UserHolding) {
         if data == nil {
             data = holding
@@ -42,6 +46,7 @@ final class HoldingCell: UITableViewCell {
 
     private func setupUI() {
         selectionStyle = .none
+        mainStackView.removeAllArrangedSubviews()
         getHorizontalStackView().forEach { mainStackView.addArrangedSubview($0) }
         contentView.addSubview(mainStackView)
         setupConstraints()
